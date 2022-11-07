@@ -2,6 +2,7 @@ from typing import List
 
 
 class Solution:
+
     def searchInsert(self, nums: List[int], target: int) -> int:
         idx = len(nums) - 1
         last_value = nums[idx]
